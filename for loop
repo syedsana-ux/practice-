@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>JS For Loop</title>
+    <script>
+        // FOR LOOP with condition
+        const n = parseInt(prompt("Enter Range"));
+        for (let i = 1; i <= n; i++) {
+            if (i % 3 == 0) {
+                document.writeln("lohith raju<br>");
+            } else {
+                document.writeln(i + "<br>");
+            }
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
