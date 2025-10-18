@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>JS Do-While Loop</title>
+    <script>
+        // DO-WHILE LOOP (executes at least once)
+        let count = parseInt(prompt("Enter Range"));
+        let i = 1;
+
+        do {
+            document.writeln(i + "<br>");
+            i++;
+        } while (i <= count);
+    </script>
+</head>
+<body>
+</body>
+</html>
