@@ -1,0 +1,100 @@
+<html>
+
+    <head>
+
+        <title>JS</title>
+
+        <script>
+            //while loop
+            const n = parseInt(prompt("Enter Range"))
+            i=1 //initiaization expression
+            while(i<=n)  //conditional expression
+        {
+            document.writeln(i+"<br>")
+            i++;  //increment operation     (update expression)
+        }
+        
+        </script>
+    </head>
+
+    <body>
+
+    </body>
+    
+</html>
+
+2400039069
+<html>
+
+    <head>
+
+        <title>JS</title>
+
+        <script>
+            //do-while
+            let count  = parseInt(prompt("Enter Range"))
+            i=1;
+            do 
+            {
+                document.writeln(i+"<br>")
+                i++;
+            }
+            while(i<=count)
+        </script>
+    </head>
+
+    <body>
+
+    </body>
+    
+</html>
+<html>
+
+    <head>
+
+        <title>JS</title>
+
+        <script>
+            const n = parseInt(prompt("Enter Range"),0)
+            for(i=1;i<=n;i++)
+     {
+            if(i%3==0)
+        {
+            document.writeln("lohith raju" +"<br>")
+        }
+    
+    else
+        {
+        document.writeln(i+"<br>")
+        }
+    }
+        </script>
+    </head>
+
+    <body>
+
+    </body>
+    
+</html>
+<html>
+
+    <head>
+
+        <title>JS</title>
+
+        <script>
+            var n = parseInt(prompt("Enter Input Number"))
+            while(n!=0)
+        {
+            digit = n%10
+            document.writeln(digit+"<br>")
+            n=parseInt(n/10)
+        }
+        </script>
+    </head>
+
+    <body>
+
+    </body>
+    
+</html>
