@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>JS Extract Digits</title>
+    <script>
+        // REVERSE DIGITS USING WHILE
+        let n = parseInt(prompt("Enter Input Number"));
+        while (n != 0) {
+            let digit = n % 10; // Extract last digit
+            document.writeln(digit + "<br>");
+            n = parseInt(n / 10); // Remove last digit
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
